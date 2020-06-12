@@ -1,0 +1,69 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页,
+		{
+			"path": "pages/main/main",
+			"style": {
+				
+				"navigationBarTitleText": "个人信息"
+			}
+		}, {
+			"path": "pages/main_edit/main_edit",
+			"style": {
+				
+				"navigationBarTitleText": "个人信息"
+			}
+		},  {
+			"path": "pages/main_edit1/main_edit1",
+			"style": {
+				
+				"navigationBarTitleText": "个人信息"
+			}
+		}, {
+			"path": "pages/main_jb/main_jb",
+			"style": {
+				
+				"navigationBarTitleText": "基本信息"
+			}
+		}, {
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},{
+			"path": "pages/login0/login0",
+			"style": {
+				"navigationBarTitleText": "微信授权"
+			}
+		}, {
+			"path": "pages/reg/reg",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		}, {
+			"path": "pages/pwd/pwd",
+			"style": {
+				"navigationBarTitleText": "找回密码"
+			}
+		}, {
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		} ,{
+            "path" : "pages/xieyi/xieyi",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/use_list/use_list",
+            "style" : {}
+        }
+        
+    ],
+
+	"globalStyle": {
+		"navigationStyle": "custom",
+		"navigationBarTextStyle": "white",
+		"navigationBarBackgroundColor": "#0faeff",
+		"backgroundColor": "#fbf9fe"
+	}
+}

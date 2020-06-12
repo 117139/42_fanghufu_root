@@ -1,0 +1,17 @@
+别名:fanghufu
+密码:123456
+组织名称:wenxin
+
+
+wx 
+
+
+lfbw@techtextile.com.cn
+密码：Lf19820321
+
+AppID(小程序ID)wx92cce75e088cce64
+AppSecret(小程序密钥)98682d4d354310b76f013bc4912aeec1
+
+公众号
+beijingbangwei 
+zhaojiahuan
