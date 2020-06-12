@@ -50,7 +50,7 @@
 		</view>
 		<view class="tk_text" v-if="tk_show">
 			<view class="tk_czz" @tap="tk_show=false"></view>
-			<textarea placeholder="请填写报废备注..." focus @blur="tk_show=false" cursor-spacing='130' v-model="liyou" maxlength="500" @confirm="baofei"></textarea>
+			<textarea placeholder="请填写报废备注..."  @blur="tk_show=false" cursor-spacing='130' v-model="liyou" maxlength="500" @confirm="baofei"></textarea>
 		  <view  class="tk_btn">
 		  	<view @tap="baofei">提交</view>
 		  </view>
@@ -403,9 +403,10 @@
 	}
 	.tk_text textarea{
 		position: absolute;
-		top: 200rpx;
+		top: 300rpx;
 		z-index: 999;
-		width: 100%;
+		width: 80%;
+		margin-left: 10%;
 		height: 290rpx;
 		border-radius: 12rpx;
 	  border: 1px solid #eee;
