@@ -47,7 +47,15 @@
                 ]
             },
             /* ios打包配置 */
-            "ios" : {},
+            "ios" : {
+                "UIUserInterfaceStyle" : "Automatic",
+                "idfa" : false,
+                "privacyDescription" : {
+                    "NSPhotoLibraryUsageDescription" : "需要您同意才能获取到相册图片,允许吗?",
+                    "NSPhotoLibraryAddUsageDescription" : "需要您同意才能保存照片到相册,允许吗?",
+                    "NSCameraUsageDescription" : "需要您同意才能扫一扫商品或拍摄其他照片，允许吗"
+                }
+            },
             /* SDK配置 */
             "sdkConfigs" : {
                 "ad" : {}
